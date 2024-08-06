@@ -1,0 +1,12 @@
+.about{
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(209, 157, 157, 0.434);
+    gap: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+}

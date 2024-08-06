@@ -1,0 +1,5 @@
+.layout{
+    background-image: url(../image/Home_bg.jpg);
+    display: flex;
+    flex-direction: column;
+}

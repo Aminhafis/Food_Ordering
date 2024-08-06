@@ -1,0 +1,10 @@
+.area{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.area a{
+    color: red;
+    text-decoration: none;
+}

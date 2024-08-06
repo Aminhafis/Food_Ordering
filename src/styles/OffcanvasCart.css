@@ -1,0 +1,9 @@
+.offcanvas-end{
+    width: 400px;
+    height: 600px;
+    background-color: rgba(105, 83, 83, 0.434);
+    color: red;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px 20px;
+}

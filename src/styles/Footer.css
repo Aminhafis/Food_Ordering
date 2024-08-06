@@ -1,0 +1,14 @@
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap: 300px;
+   background-color: rgb(141, 141, 141);
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 50px;
+}
+.foot{
+    background-color: rgb(141, 141, 141);
+    padding: 50px;
+}

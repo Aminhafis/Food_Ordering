@@ -1,0 +1,16 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    height: auto;
+    width: auto;
+    padding: 50px 10px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+#category_btn a{ 
+    background-color: transparent; 
+     color: red;
+}

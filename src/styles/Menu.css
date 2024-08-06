@@ -1,0 +1,37 @@
+.Menus{
+    background-color: rgba(209, 157, 157, 0.434);
+background-size: cover;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu_cards{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+    background-color: transparent;
+    padding: 20px;
+
+}
+.menu_cards a{
+    color: rgb(238, 18, 18);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sa;
+}
+
+h3{
+    color: grey;
+    text-align: center;
+    text-decoration:none;
+}

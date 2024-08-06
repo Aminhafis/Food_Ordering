@@ -1,0 +1,68 @@
+.home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    height: 650px;
+    color: rgb(251, 19, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.home h1{
+    margin: 20px 0px;
+    padding: 0px 0px;
+}
+
+#home_p{
+    font-family: fantasy;
+    color: yellowgreen;
+}
+#home_btn{
+    height: 40px;
+    width: 180px;
+    background-color:transparent;
+    color: rgb(221, 49, 49);
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+}
+.home h1:hover{
+    color: rgba(209, 157, 157, 0.434);
+}
+#home_btn:hover{
+    border: rgba(209, 157, 157, 0.434);
+}
+#home_btn a{
+    color: red;
+    text-decoration: dotted;
+}
+#home_search_btn {
+    height:20px;
+    width: 120px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+#home_search_btn a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+.home_input{
+    background-color: transparent;
+    border-color: yellowgreen;
+    border-radius: 20px;
+    margin: 0px 0px;
+}
+#home_areas{
+    height:20px;
+    width: 200px;
+    color: rgb(255, 13, 0);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    border: none;
+}
