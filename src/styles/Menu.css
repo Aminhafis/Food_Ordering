@@ -1,5 +1,4 @@
 .Menus{
-    background-color: rgba(209, 157, 157, 0.434);
 background-size: cover;
 }
 .menu{
@@ -21,13 +20,15 @@ background-size: cover;
    flex-wrap: wrap;
     background-color: transparent;
     padding: 20px;
+    background-color: rgba(209, 157, 157, 0.434);
+    border: 10px grey;
 
 }
 .menu_cards a{
     color: rgb(238, 18, 18);
     text-decoration: none;
     font-size: 25px;
-    font-family: sa;
+    font-family: sans-serif;
 }
 
 h3{

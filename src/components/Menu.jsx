@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; // Assuming you are using React Router
-import Figure from "react-bootstrap/Figure";
 import axios from "axios";
 import "../styles/Menu.css"; // Corrected import path for CSS
 import Category from "../hooks/Category"; // Ensure Category hook/component is correctly defined
+import Card from "react-bootstrap/Card";
+
 
 function Menu() {
   const [category, setCategory] = useState([]);
@@ -25,7 +26,14 @@ function Menu() {
 
   return (
     <div className="Menus">
-      <h1 style={{ textAlign: "center", margin: "0px", paddingTop: "50px", color:"red"}}>
+      <h1
+        style={{
+          textAlign: "center",
+          margin: "0px",
+          paddingTop: "50px",
+          color: "red",
+        }}
+      >
         Our Hot Dishes
       </h1>
       <hr
@@ -39,22 +47,26 @@ function Menu() {
       <div className="menu">
         {category.map((cat) => (
           <div key={cat.idCategory} className="menu_cards">
-            <Figure>
-              {" "}
+
+            <Card style={{width:'300px',height:'300px'}}>
               <Link to={`/Category/${cat.strCategory}`}>
-                <Figure.Image
-                  width={180}
-                  height={190}
+                <Card.Img
+                  variant="top"
                   alt={cat.strCategory}
                   src={cat.strCategoryThumb}
+                  style={{ width: "150", height: "190" }}
                 />{" "}
               </Link>
-              <Figure.Caption>
+
+              <Card.Body>
                 <Link to={`/Category/${cat.strCategory}`}>
-                  <h2 style={{textAlign:'center'}}>{cat.strCategory}</h2>
+                  <Card.Title>
+                    {" "}
+                    <h2 style={{ textAlign: "center" }}>{cat.strCategory}</h2>
+                  </Card.Title>{" "}
                 </Link>
-              </Figure.Caption>
-            </Figure>
+              </Card.Body>
+            </Card>
           </div>
         ))}
       </div>
